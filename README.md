@@ -1,4 +1,4 @@
-Client-side:
+Server-side:
 
 # Equisports-lisboa
 
@@ -10,30 +10,21 @@ This is a server repository for the project Equisports-lisboa. Here I have creat
 
 
 ## 🚀 Technologies Used
-- **Frontend**: React.js, Tailwind CSS, Daisy UI
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Others**: Firebase Authentication, Vercel (for backend deployment), and Firebase Hosting (for frontend deployment)
+
 
 ## 🌟 Features
-- **User Authentication**: Secure login and logout using Firebase.  
-- **Product Browsing**: Users can view product cards and detailed information seamlessly.  
-- **Seller Panel**:  
-  - Add new products.  
-  - Edit existing products.  
-  - Delete products for inventory management.  
-- **Responsive Design**: Built with Tailwind CSS for a clean and user-friendly interface.  
-- **Full-Stack Functionality**: Powered by React.js (frontend), Node.js & Express.js (backend), and MongoDB (database). 
-- Dark and light theme functionality
+- **Post API.  
+- **Get API.  
+- **Put API.  
+- **Delete API.  
+- **Patch API.  
+
 
 ## 📦 Dependencies
 Here are the main dependencies used in this project:
-- React: `^18.0.0`
-- React Router: `^6.0.0`
-- Axios: `^1.0.0`
-- Firebase: `^9.0.0`
-- Tailwind CSS: `^3.0.0`
-- Daisy UI: `^2.0.0`
+- Cors
 - Node.js: `^16.0.0`
 - Express: `^4.0.0`
 - MongoDB: `^5.0.0`
@@ -59,10 +50,9 @@ Make sure you have installed:
    npm install
    
 4. Set up the environment variables:
-   Create a .env.local file in the root directory.
+   Create a .env file in the root directory.
    Add the following variables:
-   VITE_API_URL=http://localhost:5000
-   FIREBASE_API_KEY=your_firebase_api_key
-   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+   DB_USER=Your_MongodDB_user
+   DB_PASS=Your_Mongodb_Pass
 
 
