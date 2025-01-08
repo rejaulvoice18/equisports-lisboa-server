@@ -5,16 +5,9 @@ Client-side:
 ![Project Screenshot](https://rejaul-karim.netlify.app/assets/port2-DEEykE-s.png) <!-- Replace this link with the actual screenshot of your project -->
 
 ## 🛠 Overview
-This is a full-stack web application developed using **React.js**, **JavaScript**, **Node.js**, **Express.js**, **MongoDB**, and **Tailwind CSS**. The platform features:  
+This is a server repository for the project Equisports-lisboa. Here I have created API for post request, get request, put request, delete request, and patch request.
 
-- **Firebase Authentication**: Allows users to log in and log out securely.  
-- **Product Browsing**: Users can view product cards and access detailed product information by clicking on the **Details** button.  
-- **Seller Panel**:  
-  - Add new products.  
-  - Edit existing products.  
-  - Delete products for efficient inventory management.  
 
-This project ensures a seamless experience for both users and administrators, with a clean and responsive design.  
 
 ## 🚀 Technologies Used
 - **Frontend**: React.js, Tailwind CSS, Daisy UI
